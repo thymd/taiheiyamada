@@ -1,0 +1,24 @@
+name: "site_title"
+navbar: 
+  title: "Taihei Yamada's Website"
+  left:
+    - text: "Home"
+      href: index.html
+      icon: fa-home
+    - text: "Outputs"
+      href: outputs.html
+      icon: fa-book
+    - text: "Profile"
+      href: profile.html
+      icon: fa-user
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+    toc_float:
+      collapse: false
+    df_print: "kable"
+    include:
+    css: site_style.css
+output_dir: "docs"
+

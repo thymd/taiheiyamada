@@ -1,0 +1,39 @@
+/* Whole document: */
+body{
+  font-family: Futura;
+  color: #5A5A5A;
+  font-size: 18px;
+}
+
+/* Headers */
+h1 {
+  color: #1A72BE;
+  font-family: Futura;
+}
+
+h2, h3, h4, h5, h6 {
+  color: #499FE6;
+  margin-top: 35px;
+  padding-top: 20px;
+  font-family: Futura;
+}
+
+
+dt {
+  clear: left;
+  float: left;
+  width: 15%;
+  font-weight: bold;
+  text-align: right;
+  padding: 3px 15px 3px 0;
+}
+
+dd {
+  margin: 0 0 0 20%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+img {
+  
+}

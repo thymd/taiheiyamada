@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Outputs</title>
+
+<script src="site_libs/header-attrs-2.13/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="site_style.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Taihei Yamada's Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">
+    <span class="fa fa-home"></span>
+     
+    Home
+  </a>
+</li>
+<li>
+  <a href="outputs.html">
+    <span class="fa fa-book"></span>
+     
+    Outputs
+  </a>
+</li>
+<li>
+  <a href="profile.html">
+    <span class="fa fa-user"></span>
+     
+    Profile
+  </a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Outputs</h1>
+
+</div>
+
+
+<p>Latest update - 15 April, 2022 <br /> <br /></p>
+<div id="refereed-papers" class="section level2">
+<h2>Refereed Papers</h2>
+<div id="in-reviewpreparation" class="section level3">
+<h3>– In Review/Preparation</h3>
+<ul>
+<li><p><strong>Yamada T</strong>, Koizumi I, Nakamura F. Temperature
+effects on the composition of competing salmonids in small tributaries
+vary across seasons and age classes (in review)</p></li>
+<li><p>Nakahashi H, <strong>Yamada T (co-first and corresponding
+author)</strong>, Ishiyama N, Nakamura F. Habitat function of gravel pit
+pond for floodplain wetland fish (in preparation)</p></li>
+</ul>
+</div>
+<div id="published" class="section level3">
+<h3>– Published</h3>
+<ul>
+<li><p><strong>Yamada T</strong>, Urabe H, &amp; Nakamura F. (in press)
+Diel migration pattern of pink salmon fry in small streams. <em>Journal
+of Fish Biology</em>. <a href="https://doi.org/10.1111/jfb.15007"
+class="uri">https://doi.org/10.1111/jfb.15007</a></p></li>
+<li><p><strong>Yamada T</strong>, Koizumi I, Urabe H, &amp; Nakamura F.
+(2020) Temperature-Dependent Swimming Performance Differs by Species:
+Implications for Condition-Specific Competition between Stream
+Salmonids. <em>Zoological Science</em> 37: 1–5. <a
+href="https://doi.org/10.2108/zs190149"
+class="uri">https://doi.org/10.2108/zs190149</a> <br /> <br /></p></li>
+</ul>
+</div>
+</div>
+<div id="non-refereed-papers" class="section level2">
+<h2>Non-Refereed Papers</h2>
+<ul>
+<li><p>三浦一輝, 崎山智樹, 宇久村三世, <strong>山田太平</strong>.
+知床半島河川において採集したコガタカワシンジュガイ.
+斜里町立知床博物館研究報告 43: 1–4, 2021.</p></li>
+<li><p><strong>山田太平</strong>, 三浦一輝.
+北海道豊頃町および新得町におけるカワシンジュガイ属（<em>Margaritifera</em>）の採集記録,
+ひがし大雪自然館研究報告 7: 41–45, 2020.</p></li>
+<li><p><strong>山田太平</strong>, 三浦一輝.
+北海道十勝地方におけるカワシンジュガイ（<em>Margaritifera
+laevis</em>）とコガタカワシンジュガイ（<em>M.
+togakushiensis</em>）の生息情報, ひがし大雪自然館研究報告 6: 9–12, 2019.
+<br /> <br /></p></li>
+</ul>
+</div>
+<div id="presentations" class="section level2">
+<h2>Presentations</h2>
+<ul>
+<li><p><strong>山田太平</strong>, 卜部浩一, 中村太士.
+ダムによるサケ科魚類の産卵環境減少の広域的予測.
+日本生態学会第69回全国大会, 福岡国際会議場, 2022/03. ポスター.</p></li>
+<li><p><strong>山田太平</strong>, 小泉逸郎, 中村太士.
+河川性サケ科魚類の水温依存的な種間競争: 季節変化を考慮した野外検証.
+日本生態学会第67回全国大会, 名城大学, 2020/03. ポスター.</p></li>
+<li><p><strong>山田太平</strong>, 小泉逸郎, 卜部浩一, 中村太士.
+河川性魚類の分布規定要因: 遊泳能力と種間競争を考慮した検証.
+日本生態学会第65回全国大会, 札幌コンベンションセンター, 2018/03.
+ポスター. <br /> <br /></p></li>
+</ul>
+</div>
+<div id="outreaches" class="section level2">
+<h2>Outreaches</h2>
+<ul>
+<li><p>「自然観察会: 淡水魚編」（市民向け観察会, 講師）.
+ひがし大雪自然館, 上士幌, 2020/07/04.</p></li>
+<li><p>「上士幌学: 水生昆虫と水質調査」（高校生向け講義, 講師）.
+北海道上士幌高等学校, 上士幌, 2020/06/30, 2020/07/02.</p></li>
+<li><p>「魚類学: 種同定とスケッチの基礎」（市民向け講座, 講師）.
+ひがし大雪自然館, 上士幌, 2019/12/15.</p></li>
+<li><p>「自然観察会: 淡水魚編」（市民向け観察会, 講師）.
+ひがし大雪自然館, 上士幌, 2019/07/14.</p></li>
+</ul>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
