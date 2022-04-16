@@ -1,10 +1,18 @@
 
+```{r, include = F}
+knitr::opts_chunk$set(echo = F, message = F)
+library(knitr)
+library(icons)
+```
+
 ![](images/pink_salmon.JPG)
 <br />
 <br />
 
 ## 山田 太平
 ## Taihei Yamada
+
+[`r icon_style(icons::fontawesome("researchgate"), scale = 1.2, fill = '#499FE6')`](https://www.researchgate.net/profile/Taihei-Yamada-2) [`r icon_style(icons::fontawesome("orcid"), scale = 1.2, fill = '#499FE6')`](https://orcid.org/0000-0002-6120-7094) [`r icon_style(icons::fontawesome("address-book"), scale = 1.2, fill = '#499FE6')`](https://publons.com/researcher/3808885/taihei-yamada/) 
 
 北海道大学大学院農学院 生態系管理学研究室 博士後期課程
 <br />
