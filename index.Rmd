@@ -1,3 +1,7 @@
+---
+pagetitle: "Taihei Yamada's Website"
+output: html_document
+---
 
 ```{r, include = F}
 knitr::opts_chunk$set(echo = F, message = F)
