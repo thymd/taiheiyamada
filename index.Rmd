@@ -9,7 +9,7 @@ library(knitr)
 library(icons)
 ```
 
-![](images/pink_salmon.JPG)
+![](images/pink_salmon_crop.JPG)
 <br />
 <br />
 
