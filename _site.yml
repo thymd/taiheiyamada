@@ -21,3 +21,4 @@ output:
     include:
     css: site_style.css
 output_dir: "docs"
+
