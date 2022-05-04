@@ -22,5 +22,5 @@ output:
     css: site_style.css
 output_dir: "docs"
 
-plugins:
- - jekyll-sitemap
+gems:
+  - jekyll-sitemap
