@@ -1,6 +1,14 @@
+.navbar-brand{
+  font-size: large;
+ }
+ 
+ .navbar-collapse{
+  font-size: large;
+ }
+
 /* Whole document: */
 body{
-  font-family: Futura;
+  font-family: 'Josefin Sans', sans-serif;
   color: #5A5A5A;
   font-size: 18px;
 }
@@ -8,14 +16,14 @@ body{
 /* Headers */
 h1 {
   color: #1A72BE;
-  font-family: Futura;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
   color: #499FE6;
   margin-top: 35px;
   padding-top: 20px;
-  font-family: Futura;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 
