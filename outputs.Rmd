@@ -2,7 +2,7 @@
 title: Outputs
 ---
 
-Latest update - 13 May, 2022
+Latest update - 23 June, 2022
 <br />
 <br />
 
@@ -32,6 +32,8 @@ Latest update - 13 May, 2022
 <br />
 
 ## Presentations
+
+- **Yamada T**, Urabe H, Nakamura F. A broad-scale prediction of reduction in spawning habitats for salmonids by dams. IYS Synthesis Symposium, The Westin Bayshore, Vancouver, Canada, 2022/10. (accepted)
 
 - **山田太平**, 卜部浩一, 中村太士. ダムによるサケ科魚類の産卵環境減少の広域的予測. 日本生態学会第69回全国大会, 福岡国際会議場, 2022/03. ポスター.
 
