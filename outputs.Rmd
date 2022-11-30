@@ -35,6 +35,10 @@ Latest update - 22 November, 2022
 
 ## Presentations
 
+- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. 流域の地形特性は溯河性サケ科魚類の再生産効率を規定するか？. 第15回サケ学研究会, 水産研究・教育機構水産資源研究所, 2022/12. 口頭.
+
+- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. 溯河性サケ科魚類の再生産効率は流域の地形特性によって規定される. 第43回魚類系統研究会, 北海道大学大学院環境科学院, 2022/12. 口頭.
+
 - <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, Nakamura F. A broad-scale prediction of reduction in spawning habitats for salmonids by dams. IYS Synthesis Symposium, The Westin Bayshore, Vancouver, Canada, 2022/10.
 
 - <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. ダムによるサケ科魚類の産卵環境減少の広域的予測. 日本生態学会第69回全国大会, 福岡国際会議場, 2022/03. ポスター.
