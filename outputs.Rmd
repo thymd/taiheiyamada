@@ -2,7 +2,7 @@
 title: Outputs
 ---
 
-Latest update - 30 November, 2022
+Latest update - 12 December, 2022
 <br />
 <br />
 
@@ -15,7 +15,7 @@ Latest update - 30 November, 2022
 -  <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Katahira H, Miura K, & Nakamura F. Relationship between salmon egg subsidy and the distribution of an avian predator. (in review) https://doi.org/10.1101/2022.07.19.500590
 
 ### – Published
-- Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F. Ecological value of gravel pit ponds for floodplain wetland fish. *Freshwater Biology*. (in press)
+- Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F. (early view) Ecological value of gravel pit ponds for floodplain wetland fish. *Freshwater Biology*. https://doi.org/10.1111/fwb.14029
 
 - <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. (2022) Diel migration pattern of pink salmon fry in small streams. *Journal of Fish Biology* 100: 1088–1092. https://doi.org/10.1111/jfb.15007
 
@@ -39,7 +39,7 @@ Latest update - 30 November, 2022
 
 - <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. 溯河性サケ科魚類の再生産効率は流域の地形特性によって規定される. 第43回魚類系統研究会, 北海道大学大学院環境科学院, 2022/12. 口頭.
 
-- <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, Nakamura F. A broad-scale prediction of reduction in spawning habitats for salmonids by dams. IYS Synthesis Symposium, The Westin Bayshore, Vancouver, Canada, 2022/10.
+- <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, Nakamura F. A broad-scale prediction of reduction in spawning habitats for salmonids by dams. IYS Synthesis Symposium, The Westin Bayshore, Vancouver, Canada, 2022/10. Poster.
 
 - <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. ダムによるサケ科魚類の産卵環境減少の広域的予測. 日本生態学会第69回全国大会, 福岡国際会議場, 2022/03. ポスター.
 
