@@ -16,8 +16,8 @@ library(icons)
 
 # Profile
 
-Taihei Yamada <br />
-山田 太平
+<span style="font-weight:bold; ">Taihei Yamada</span> <br />
+<span style="font-weight:bold; ">山田 太平</span>
 
 [`r icon_style(icons::fontawesome("researchgate"), scale = 1.8, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) [`r icon_style(icons::fontawesome("orcid"), scale = 1.8, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) [`r icon_style(icons::fontawesome("instagram"), scale = 1.8, fill = '#5A5A5A')`](https://www.instagram.com/prbnmt/) 
 
@@ -58,14 +58,14 @@ table, th, td {
 | 2013.04 – 2017.03 | B.Sc. | Sch. Marine Biosciences, Kitasato Univ., Japan<br />北里大学 海洋生命科学部 |
 | 2010.04 – 2013.03 |    | Okinawa Prefectural Yaeyama HS, Japan<br />沖縄県立八重山高等学校 |
 <br />
-<br />
+
 
 ## Works
 | | | |
 | :-- | :- | :------- |
 | 2018.09 – 2020.08 | Assistant Curator | Higashitaisetsu Museum, Japan<br />上士幌町 商工観光課 ひがし大雪自然館 |
 <br />
-<br />
+
 
 ## Fellowships and Grants
 | | | |
@@ -73,7 +73,7 @@ table, th, td {
 | 2022.04 – 2024.03 | | JSPS Research Fellow DC2<br />日本学術振興会特別研究員DC2 |
 | 2021.10 – 2022.03 | | Hokkaido University DX Doctoral Fellowship<br />北海道大学 DX 博士人材フェローシップ |
 <br />
-<br />
+
 
 ## Skills
 - R

@@ -6,48 +6,49 @@ Latest update - 29 December, 2022
 <br />
 <br />
 
+<style>
+table, th, td {
+    font-size: 100%;
+}
+</style>
+
 ## Refereed Papers
 ### – In Review/Preparation
-- <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. Determinant factors on the freshwater productivity of anadromous salmonids. (in preparation)
-
--  <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, & Nakamura F. Temperature effects on the composition of competing salmonids in small tributaries vary across seasons and age classes. (in review)
+| | |
+| :- | :---------------- |
+| in prep. | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. Determinant factors on the freshwater productivity of anadromous salmonids |
+| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, & Nakamura F. Temperature effects on the composition of competing salmonids in small tributaries vary across seasons and age classes. |
 
 ### – Published
-- Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F. (early view) Ecological value of gravel pit ponds for floodplain wetland fish. *Freshwater Biology*. https://doi.org/10.1111/fwb.14029
-
--  <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Katahira H, Miura K, & Nakamura F.  (2022) Relationship between salmon egg subsidy and the distribution of an avian predator. *Ecology and Evolution* 12: e9696. https://doi.org/10.1002/ece3.9696
-
-- <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. (2022) Diel migration pattern of pink salmon fry in small streams. *Journal of Fish Biology* 100: 1088–1092. https://doi.org/10.1111/jfb.15007
-
-- <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, Urabe H, & Nakamura F. (2020) Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. *Zoological Science* 37: 1–5. https://doi.org/10.2108/zs190149
+| | |
+| :- | :---------------- |
+| early view | Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F. Ecological value of gravel pit ponds for floodplain wetland fish. *Freshwater Biology*. https://doi.org/10.1111/fwb.14029 |
+| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Katahira H, Miura K, & Nakamura F. Relationship between salmon egg subsidy and the distribution of an avian predator. *Ecology and Evolution* 12: e9696. https://doi.org/10.1002/ece3.9696 |
+| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. (2022) Diel migration pattern of pink salmon fry in small streams. *Journal of Fish Biology* 100: 1088–1092. https://doi.org/10.1111/jfb.15007 |
+| 2020 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, Urabe H, & Nakamura F. Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. *Zoological Science* 37: 1–5. https://doi.org/10.2108/zs190149 |
 <br />
-<br />
+
 
 ## Non-Refereed Papers
-
-- 三浦一輝, 崎山智樹, 宇久村三世, <span style="font-weight:bold; color: #06283D; ">山田太平</span>. 知床半島河川において採集したコガタカワシンジュガイ. 斜里町立知床博物館研究報告 43: 1–4, 2021.
-
-- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝. 北海道豊頃町および新得町におけるカワシンジュガイ属（*Margaritifera*）の採集記録, ひがし大雪自然館研究報告 7: 41–45, 2020.
-
-- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝. 北海道十勝地方におけるカワシンジュガイ（*Margaritifera laevis*）とコガタカワシンジュガイ（*M. togakushiensis*）の生息情報, ひがし大雪自然館研究報告 6: 9–12, 2019.
+| | |
+| :- | :---------------- |
+| 2021 | 三浦一輝, 崎山智樹, 宇久村三世, <span style="font-weight:bold; color: #06283D; ">山田太平</span>. 知床半島河川において採集したコガタカワシンジュガイ. 斜里町立知床博物館研究報告 43: 1–4. |
+| 2020 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝. 北海道豊頃町および新得町におけるカワシンジュガイ属（*Margaritifera*）の採集記録, ひがし大雪自然館研究報告 7: 41–45. |
+| 2019 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝. 北海道十勝地方におけるカワシンジュガイ（*Margaritifera laevis*）とコガタカワシンジュガイ（*M. togakushiensis*）の生息情報, ひがし大雪自然館研究報告 6: 9–12. |
 <br />
-<br />
+
 
 ## Presentations
-
-- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. 流域の地形特性は溯河性サケ科魚類の再生産効率を規定するか？. 第15回サケ学研究会, 水産研究・教育機構水産資源研究所, 2022/12. 口頭.
-
-- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. 溯河性サケ科魚類の再生産効率は流域の地形特性によって規定される. 第43回魚類系統研究会, 北海道大学大学院環境科学院, 2022/12. 口頭.
-
-- <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, Nakamura F. A broad-scale prediction of reduction in spawning habitats for salmonids by dams. IYS Synthesis Symposium, The Westin Bayshore, Vancouver, Canada, 2022/10. Poster.
-
-- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. ダムによるサケ科魚類の産卵環境減少の広域的予測. 日本生態学会第69回全国大会, 福岡国際会議場, 2022/03. ポスター.
-
-- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 小泉逸郎, 中村太士. 河川性サケ科魚類の水温依存的な種間競争: 季節変化を考慮した野外検証. 日本生態学会第67回全国大会, 名城大学, 2020/03. ポスター.
-
-- <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 小泉逸郎, 卜部浩一, 中村太士. 河川性魚類の分布規定要因: 遊泳能力と種間競争を考慮した検証. 日本生態学会第65回全国大会, 札幌コンベンションセンター, 2018/03. ポスター.
+| | |
+| :- | :---------------- |
+| 2022/12 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. 流域の地形特性は溯河性サケ科魚類の再生産効率を規定するか？. 第15回サケ学研究会, 水産研究・教育機構水産資源研究所, 口頭. |
+| 2022/12 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. 溯河性サケ科魚類の再生産効率は流域の地形特性によって規定される. 第43回魚類系統研究会, 北海道大学大学院環境科学院, 口頭. |
+| 2022/10 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, Nakamura F. A broad-scale prediction of reduction in spawning habitats for salmonids by dams. IYS Synthesis Symposium, The Westin Bayshore, Vancouver, Canada, Poster. |
+| 2022/03 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. ダムによるサケ科魚類の産卵環境減少の広域的予測. 日本生態学会第69回全国大会, 福岡国際会議場, ポスター. |
+| 2020/03 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 小泉逸郎, 中村太士. 河川性サケ科魚類の水温依存的な種間競争: 季節変化を考慮した野外検証. 日本生態学会第67回全国大会, 名城大学, ポスター. |
+| 2018/03 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 小泉逸郎, 卜部浩一, 中村太士. 河川性魚類の分布規定要因: 遊泳能力と種間競争を考慮した検証. 日本生態学会第65回全国大会, 札幌コンベンションセンター, ポスター. |
 <br />
-<br />
+
 
 ## Outreaches
 
