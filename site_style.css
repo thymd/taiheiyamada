@@ -10,7 +10,7 @@
 body{
   font-family: 'Josefin Sans', sans-serif;
   color: #5A5A5A;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /* Headers */
@@ -21,8 +21,8 @@ h1 {
 
 h2, h3, h4, h5, h6 {
   color: #499FE6;
-  margin-top: 35px;
-  padding-top: 20px;
+  margin-top: 33px;
+  padding-top: 18px;
   font-family: 'Josefin Sans', sans-serif;
 }
 
