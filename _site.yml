@@ -8,9 +8,6 @@ navbar:
     - text: "Outputs"
       href: outputs.html
       icon: fa-book
-    - text: "Profile"
-      href: profile.html
-      icon: fa-user
 output:
   html_document:
     theme: yeti

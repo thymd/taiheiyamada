@@ -8,7 +8,7 @@ title: Profile
 <br />
 Yamada Taihei
 <br />
-[`r icon_style(icons::fontawesome("researchgate"), scale = 1, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) [`r icon_style(icons::fontawesome("orcid"), scale = 1, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) [`r icon_style(icons::fontawesome("address-book"), scale = 1, fill = '#5A5A5A')`](https://publons.com/researcher/3808885/taihei-yamada/) [`r icon_style(icons::fontawesome("instagram"), scale = 1, fill = '#5A5A5A')`](https://www.instagram.com/prbnmt/)
+[`r icon_style(icons::fontawesome("researchgate"), scale = 1, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) [`r icon_style(icons::fontawesome("orcid"), scale = 1, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) [`r icon_style(icons::fontawesome("instagram"), scale = 1, fill = '#5A5A5A')`](https://www.instagram.com/prbnmt/)
 
 北海道大学大学院農学院 生態系管理学研究室
 <br />
@@ -18,27 +18,34 @@ E-mail: thymd8 [at] gmail.com
 <br />
 <br />
 
+<style>
+table, th, td {
+    font-size: 100%;
+}
+</style>
+
 ## Education
-
-2020.04–Present  北海道大学大学院 農学院 農学専攻 博士後期課程 (指導: 中村太士 教授)
-
-2017.04–2019.03  北海道大学大学院 農学院 環境資源学専攻 修士課程 (指導: 中村太士 教授)
-
-2013.04–2017.03  北里大学 海洋生命科学部 海洋生命科学科 (指導: 朝日田卓 教授)
-
-2010.04–2013.03  沖縄県立八重山高等学校
+| | | |
+| :-- | :- | :------- |
+| 2020.04 – Present | Ph.D. | Grad. Agriculture, Hokkaido Univ., Japan<br />北海道大学大学院 農学院 (指導: 中村太士 教授) |
+| 2017.04 – 2019.03 | M.Sc. | Grad. Agriculture, Hokkaido Univ., Japan<br />北海道大学大学院 農学院 |
+| 2013.04 – 2017.03 | B.Sc. | Sch. Marine Biosciences, Kitasato Univ., Japan<br />北里大学 海洋生命科学部 |
+| 2010.04 – 2013.03 |    | 沖縄県立八重山高等学校 |
 <br />
 <br />
 
 ## Works
-2018.09–2020.08  上士幌町 商工観光課 ひがし大雪自然館担当 学芸推進員
+| | | |
+| :-- | :- | :------- |
+| 2018.09 – 2020.08 | Assistant Curator | Higashitaisetsu Museum, Japan<br />上士幌町 商工観光課 ひがし大雪自然館 |
 <br />
 <br />
 
 ## Fellowships and Grants
-2022.04–2024.03  日本学術振興会特別研究員DC2
-
-2021.10–2022.03  北海道大学 DX 博士人材フェローシップ
+| | | |
+| :-- | :- | :------- |
+| 2022.04 – 2024.03 | | JSPS Research Fellow DC2<br />日本学術振興会特別研究員DC2 |
+| 2021.10 – 2022.03 | | Hokkaido University DX Doctoral Fellowship<br />北海道大学 DX 博士人材フェローシップ |
 <br />
 <br />
 
