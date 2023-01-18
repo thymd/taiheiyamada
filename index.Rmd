@@ -63,7 +63,7 @@ table, th, td {
 ## Works
 | | | |
 | :-- | :- | :------- |
-| 2018.09 – 2020.08 | Assistant Curator | Higashitaisetsu Museum, Japan<br />上士幌町 商工観光課 ひがし大雪自然館 |
+| 2018.09 – 2020.08 | Assistant<br />Curator | Higashitaisetsu Museum, Japan<br />上士幌町 商工観光課 ひがし大雪自然館 |
 <br />
 
 
@@ -76,21 +76,13 @@ table, th, td {
 
 
 ## Skills
-- R
-
-- GIS
-
-- 魚類に関する野外調査全般
-<br />
-Fish surveys
-
-- 水生昆虫の同定
-<br />
-Identification of aquatic invertebrates
-
-- 大型自動二輪免許
-<br />
-Driver's license for large motorcycles
+| | |
+| :- | :---------------- |
+| `r icon_style(icons::fontawesome("registered"), scale = 1.8, fill = '#5A5A5A')` | Data handling and analysis using R |
+| `r icon_style(icons::fontawesome("map"), scale = 1.8, fill = '#5A5A5A')` | GIS |
+| `r icon_style(icons::fontawesome("fish"), scale = 1.8, fill = '#5A5A5A')` | Fish surveys<br />魚類に関する野外調査全般 |
+| `r icon_style(icons::fontawesome("bug"), scale = 1.8, fill = '#5A5A5A')` | Identification of aquatic invertebrates<br />水生昆虫の同定 |
+| `r icon_style(icons::fontawesome("motorcycle"), scale = 1.8, fill = '#5A5A5A')` | Driver's license for large motorcycles<br />大型自動二輪免許 |
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->

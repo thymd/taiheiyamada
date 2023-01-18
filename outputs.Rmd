@@ -12,12 +12,12 @@ table, th, td {
 }
 </style>
 
-## Refereed Papers
+## International Papers
 ### – In Review/Preparation
 | | |
 | :- | :---------------- |
-| in prep. | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F.<br />Determinant factors on the freshwater productivity of anadromous salmonids |
-| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, & Nakamura F.<br />Temperature effects on the composition of competing salmonids in small tributaries vary across seasons and age classes. |
+| in prep. | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F.<br />Determinant factors on the freshwater productivity of anadromous salmonids. |
+| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, & Nakamura F.<br />Seasonal changes in the ratio of congeneric salmonids in tributaries with different temperature regimes. |
 
 ### – Published
 | | |
@@ -29,12 +29,12 @@ table, th, td {
 <br />
 
 
-## Non-Refereed Papers
+## Domestic Papers
 | | |
 | :- | :---------------- |
-| 2021 | 三浦一輝, 崎山智樹, 宇久村三世, <span style="font-weight:bold; color: #06283D; ">山田太平</span>. <br />知床半島河川において採集したコガタカワシンジュガイ. <br />斜里町立知床博物館研究報告 43: 1–4. |
-| 2020 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝. <br />北海道豊頃町および新得町におけるカワシンジュガイ属（*Margaritifera*）の採集記録. <br />ひがし大雪自然館研究報告 7: 41–45. |
-| 2019 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝. <br />北海道十勝地方におけるカワシンジュガイ（*Margaritifera laevis*）とコガタカワシンジュガイ（*M. togakushiensis*）の生息情報. <br />ひがし大雪自然館研究報告 6: 9–12. |
+| 2021 | 三浦一輝, 崎山智樹, 宇久村三世, <span style="font-weight:bold; color: #06283D; ">山田太平</span>. <br />知床半島河川において採集したコガタカワシンジュガイ. <br />斜里町立知床博物館研究報告 43: 1–4. (non-refereed) |
+| 2020 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝. <br />北海道豊頃町および新得町におけるカワシンジュガイ属（*Margaritifera*）の採集記録. <br />ひがし大雪自然館研究報告 7: 41–45. (non-refereed) |
+| 2019 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝. <br />北海道十勝地方におけるカワシンジュガイ（*Margaritifera laevis*）とコガタカワシンジュガイ（*M. togakushiensis*）の生息情報. <br />ひがし大雪自然館研究報告 6: 9–12. (non-refereed) |
 <br />
 
 
@@ -51,14 +51,12 @@ table, th, td {
 
 
 ## Outreaches
-
-- 「自然観察会: 淡水魚編」（市民向け観察会, 講師）. ひがし大雪自然館, 上士幌, 2020/07/04.
-
-- 「上士幌学: 水生昆虫と水質調査」（高校生向け講義, 講師）. 北海道上士幌高等学校, 上士幌, 2020/06/30, 2020/07/02.
-
-- 「魚類学: 種同定とスケッチの基礎」（市民向け講座, 講師）. ひがし大雪自然館, 上士幌, 2019/12/15.
-
-- 「自然観察会: 淡水魚編」（市民向け観察会, 講師）. ひがし大雪自然館, 上士幌, 2019/07/14.
+| | |
+| :-- | :---------------- |
+| 2020/07/04 | 自然観察会: 淡水魚編 (市民向け観察会, 講師). ひがし大雪自然館, 上士幌. |
+| 2020/06/30<br />2020/07/02 | 上士幌学: 水生昆虫と水質調査 (高校生向け講義, 講師). 北海道上士幌高等学校, 上士幌. |
+| 2019/12/15 | 魚類学: 種同定とスケッチの基礎 (市民向け講座, 講師). ひがし大雪自然館, 上士幌. |
+| 2019/07/14 | 自然観察会: 淡水魚編 (市民向け観察会, 講師). ひがし大雪自然館, 上士幌. |
 
 
 
