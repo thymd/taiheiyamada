@@ -16,16 +16,16 @@ table, th, td {
 ### – In Review/Preparation
 | | |
 | :- | :---------------- |
-| in prep. | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F.<br />Determinant factors on the freshwater productivity of anadromous salmonids. |
+| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F.<br />Watershed hydrogeomorphology drives freshwater productivity of anadromous salmonids: Implications for habitat conservation and restoration.  <br />Preprint: https://doi.org/10.22541/au.167542388.85787817/v1 |
 | in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, & Nakamura F.<br />Seasonal changes in the ratio of congeneric salmonids in tributaries with different temperature regimes. |
 
 ### – Published
 | | |
 | :- | :---------------- |
-| early view | Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology*. https://doi.org/10.1111/fwb.14029 |
-| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Katahira H, Miura K, & Nakamura F.<br />Relationship between salmon egg subsidy and the distribution of an avian predator. <br />*Ecology and Evolution* 12: e9696. https://doi.org/10.1002/ece3.9696 |
-| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. <br />Diel migration pattern of pink salmon fry in small streams. <br />*Journal of Fish Biology* 100: 1088–1092. https://doi.org/10.1111/jfb.15007 |
-| 2020 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, Urabe H, & Nakamura F. <br />Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. <br />*Zoological Science* 37: 1–5. https://doi.org/10.2108/zs190149 |
+| early view | Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. https://doi.org/10.1111/fwb.14029 |
+| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Katahira H, Miura K, & Nakamura F.<br />Relationship between salmon egg subsidy and the distribution of an avian predator. <br />*Ecology and Evolution* 12(12): e9696. https://doi.org/10.1002/ece3.9696 |
+| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. <br />Diel migration pattern of pink salmon fry in small streams. <br />*Journal of Fish Biology* 100(4): 1088–1092. https://doi.org/10.1111/jfb.15007 |
+| 2020 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, Urabe H, & Nakamura F. <br />Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. <br />*Zoological Science* 37(5): 1–5. https://doi.org/10.2108/zs190149 |
 <br />
 
 
