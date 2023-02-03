@@ -22,7 +22,7 @@ table, th, td {
 ### – Published
 | | |
 | :- | :---------------- |
-| early view | Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. https://doi.org/10.1111/fwb.14029 |
+| 2023 | Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. https://doi.org/10.1111/fwb.14029 |
 | 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Katahira H, Miura K, & Nakamura F.<br />Relationship between salmon egg subsidy and the distribution of an avian predator. <br />*Ecology and Evolution* 12(12): e9696. https://doi.org/10.1002/ece3.9696 |
 | 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. <br />Diel migration pattern of pink salmon fry in small streams. <br />*Journal of Fish Biology* 100(4): 1088–1092. https://doi.org/10.1111/jfb.15007 |
 | 2020 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, Urabe H, & Nakamura F. <br />Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. <br />*Zoological Science* 37(5): 1–5. https://doi.org/10.2108/zs190149 |
