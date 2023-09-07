@@ -13,7 +13,7 @@
 
 <title>Outputs</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.22/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -279,7 +276,7 @@ $(document).ready(function () {
 </div>
 
 
-<p>Latest update - 27 June, 2023 <br /> <br /></p>
+<p>Latest update - 7 September, 2023 <br /> <br /></p>
 <style>
 table, th, td {
     font-size: 100%;
@@ -300,18 +297,30 @@ table, th, td {
 <td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
 T</span>, Urabe H, &amp; Nakamura F.<br />Watershed hydrogeomorphology
 drives freshwater productivity of anadromous salmonids: Implications for
-habitat conservation and restoration. <br />Preprint: <a
-href="https://doi.org/10.22541/au.167542388.85787817/v1"
-class="uri">https://doi.org/10.22541/au.167542388.85787817/v1</a></td>
+habitat conservation and restoration. <u><a
+href="https://doi.org/10.22541/au.167542388.85787817/v1">Preprint</a></u></td>
 </tr>
 <tr class="even">
 <td align="left">in review</td>
 <td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
 T</span>, Koizumi I, &amp; Nakamura F.<br />Seasonal changes in the
 ratio of congeneric charrs in northern Japanese tributaries with
-different temperature regimes. <br />Preprint: <a
-href="https://doi.org/10.21203/rs.3.rs-2465444/v1"
-class="uri">https://doi.org/10.21203/rs.3.rs-2465444/v1</a></td>
+different temperature regimes. <u><a
+href="https://doi.org/10.21203/rs.3.rs-2465444/v1">Preprint</a></u></td>
+</tr>
+<tr class="odd">
+<td align="left">in review</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>, Nobetsu T, Urabe H, &amp; Nakamura F.<br />Invasion status of
+hatchery-origin pink salmon in an unstocked river at the Shiretoko World
+Natural Heritage Site in northern Japan. <u><a
+href="https://doi.org/10.21203/rs.3.rs-3315064/v1">Preprint</a></u></td>
+</tr>
+<tr class="even">
+<td align="left">in prep</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span> &amp; AT.<br />Temporal responses of macroinvertebrate
+community structure to sediment replenishment downstream of a dam.</td>
 </tr>
 </tbody>
 </table>
@@ -330,26 +339,24 @@ class="uri">https://doi.org/10.21203/rs.3.rs-2465444/v1</a></td>
 style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and
 corresponding author)</span>, Ishiyama N, &amp; Nakamura
 F.<br />Ecological value of gravel pit ponds for floodplain wetland
-fish.<br /><em>Freshwater Biology</em> 68(2): 340–348. <a
-href="https://doi.org/10.1111/fwb.14029"
-class="uri">https://doi.org/10.1111/fwb.14029</a></td>
+fish.<br /><em>Freshwater Biology</em> 68(2): 340–348. <u><a
+href="https://doi.org/10.1111/fwb.14029">Link</a></u></td>
 </tr>
 <tr class="even">
 <td align="left">2022</td>
 <td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
 T</span>, Katahira H, Miura K, &amp; Nakamura F.<br />Relationship
 between salmon egg subsidy and the distribution of an avian predator.
-<br /><em>Ecology and Evolution</em> 12(12): e9696. <a
-href="https://doi.org/10.1002/ece3.9696"
-class="uri">https://doi.org/10.1002/ece3.9696</a></td>
+<br /><em>Ecology and Evolution</em> 12(12): e9696. <u><a
+href="https://doi.org/10.1002/ece3.9696">Link</a></u></td>
 </tr>
 <tr class="odd">
 <td align="left">2022</td>
 <td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
 T</span>, Urabe H, &amp; Nakamura F. <br />Diel migration pattern of
 pink salmon fry in small streams. <br /><em>Journal of Fish Biology</em>
-100(4): 1088–1092. <a href="https://doi.org/10.1111/jfb.15007"
-class="uri">https://doi.org/10.1111/jfb.15007</a></td>
+100(4): 1088–1092. <u><a
+href="https://doi.org/10.1111/jfb.15007">Link</a></u></td>
 </tr>
 <tr class="even">
 <td align="left">2020</td>
@@ -357,9 +364,8 @@ class="uri">https://doi.org/10.1111/jfb.15007</a></td>
 T</span>, Koizumi I, Urabe H, &amp; Nakamura F.
 <br />Temperature-dependent swimming performance differs by species:
 Implications for condition-specific competition between stream
-salmonids. <br /><em>Zoological Science</em> 37(5): 429–433. <a
-href="https://doi.org/10.2108/zs190149"
-class="uri">https://doi.org/10.2108/zs190149</a></td>
+salmonids. <br /><em>Zoological Science</em> 37(5): 429–433. <u><a
+href="https://doi.org/10.2108/zs190149">Link</a><u/></td>
 </tr>
 </tbody>
 </table>
