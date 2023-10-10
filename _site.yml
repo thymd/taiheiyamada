@@ -8,15 +8,19 @@ navbar:
     - text: "Outputs"
       href: outputs.html
       icon: fa-book
+      
 output:
   html_document:
-    theme: yeti
+    theme: flatly
     highlight: textmate
-    toc_float:
-      collapse: false
+    toc: false
+    toc_float: false
+    toc_depth: 2 
+    number_sections: false
     df_print: "kable"
     include:
     css: site_style.css
+    
 output_dir: "docs"
 
 plugins:
