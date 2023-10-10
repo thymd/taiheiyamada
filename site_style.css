@@ -5,10 +5,7 @@
  .navbar-collapse{
   font-size: 22px;
  }
- 
- a {
-color: #499FE6
-}
+
  
 
 /* Whole document: */
@@ -51,30 +48,3 @@ img {
   
 }
 
-
-
-table {
-
-}
-
-tbody {
-    display: table-row-group;
-    vertical-align: middle;
-    border-color: inherit;
-}
-
-table tr {
-    background-color: #fff;
-    border-top: 1px solid #F2F2F2;
-    border-bottom: 1px solid #F2F2F2
-}
-
-table tr:nth-child(2n) {
-    background-color: #F2F2F2;
-}
-
-table td,
-table th {
-    border: 1px solid #F2F2F2;
-    padding: 6px 13px;
-}
