@@ -13,21 +13,23 @@ table, th, td {
 </style>
 
 ## International Papers
+\*Corresponding author, ^\†^Equal contribution
+
 ### – In Review/Preparation
 | | |
 | :- | :---------------- |
-| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, & Nakamura F.<br />Seasonal changes in the ratio of congeneric charrs in northern Japanese tributaries with different temperature regimes. <u>[Preprint](https://doi.org/10.21203/rs.3.rs-2465444/v1)</u> |
-| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Nobetsu T, Urabe H, & Nakamura F.<br />Invasion status of hatchery-origin pink salmon in an unstocked river at the Shiretoko World Natural Heritage Site in northern Japan. <u>[Preprint](https://doi.org/10.21203/rs.3.rs-3315064/v1)</u> |
-| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span> et al.<br />Temporal responses of the macroinvertebrate community structure to sediment replenishment downstream of a dam. |
+| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Koizumi I, & Nakamura F.<br />Seasonal changes in the ratio of congeneric charrs in northern Japanese tributaries with different temperature regimes. <u>[Preprint](https://doi.org/10.21203/rs.3.rs-2465444/v1)</u> |
+| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Nobetsu T, Urabe H, & Nakamura F.<br />Invasion status of hatchery-origin pink salmon in an unstocked river at the Shiretoko World Natural Heritage Site in northern Japan. <u>[Preprint](https://doi.org/10.21203/rs.3.rs-3315064/v1)</u> |
+| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\* et al.<br />Temporal responses of the macroinvertebrate community structure to sediment replenishment downstream of a dam. |
 
 ### – Published
 | | |
 | :- | :---------------- |
-| in press | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F.<br />Pink salmon productivity is driven by watershed hydrogeomorphology and can decline under a changing climate.<br />*Freshwater Biology*. <u>[Link](https://doi.org/10.22541/au.167542388.85787817/v1)</u> |
-| 2023 | Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. <u>[Link](https://doi.org/10.1111/fwb.14029)</u> |
-| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Katahira H, Miura K, & Nakamura F.<br />Relationship between salmon egg subsidy and the distribution of an avian predator. <br />*Ecology and Evolution* 12(12): e9696. <u>[Link](https://doi.org/10.1002/ece3.9696)</u> |
-| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. <br />Diel migration pattern of pink salmon fry in small streams. <br />*Journal of Fish Biology* 100(4): 1088–1092. <u>[Link](https://doi.org/10.1111/jfb.15007)</u> |
-| 2020 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Koizumi I, Urabe H, & Nakamura F. <br />Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. <br />*Zoological Science* 37(5): 429–433. <u>[Link](https://doi.org/10.2108/zs190149)<u/> |
+| in press | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Urabe H, & Nakamura F.<br />Pink salmon productivity is driven by watershed hydrogeomorphology and can decline under a changing climate.<br />*Freshwater Biology*. <u>[Link](https://doi.org/10.22541/au.167542388.85787817/v1)</u> |
+| 2023 | Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*^\†^, Ishiyama N, & Nakamura F.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. <u>[Link](https://doi.org/10.1111/fwb.14029)</u> |
+| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Katahira H, Miura K, & Nakamura F.<br />Relationship between salmon egg subsidy and the distribution of an avian predator. <br />*Ecology and Evolution* 12(12): e9696. <u>[Link](https://doi.org/10.1002/ece3.9696)</u> |
+| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Urabe H, & Nakamura F. <br />Diel migration pattern of pink salmon fry in small streams. <br />*Journal of Fish Biology* 100(4): 1088–1092. <u>[Link](https://doi.org/10.1111/jfb.15007)</u> |
+| 2020 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Koizumi I, Urabe H, & Nakamura F. <br />Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. <br />*Zoological Science* 37(5): 429–433. <u>[Link](https://doi.org/10.2108/zs190149)<u/> |
 <br />
 
 
