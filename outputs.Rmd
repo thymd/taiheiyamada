@@ -23,7 +23,7 @@ table, th, td {
 ### – Published
 | | |
 | :- | :---------------- |
-| in press | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F.<br />Watershed hydrogeomorphology drives freshwater productivity of anadromous salmonids: Implications for habitat conservation and restoration.<br />*Freshwater Biology*. <u>[Link](https://doi.org/10.22541/au.167542388.85787817/v1)</u> |
+| in press | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F.<br />Pink salmon productivity is driven by watershed hydrogeomorphology and can decline under a changing climate.<br />*Freshwater Biology*. <u>[Link](https://doi.org/10.22541/au.167542388.85787817/v1)</u> |
 | 2023 | Nakahashi H, <span style="font-weight:bold; color: #06283D; ">Yamada T (joint-first and corresponding author)</span>, Ishiyama N, & Nakamura F.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. <u>[Link](https://doi.org/10.1111/fwb.14029)</u> |
 | 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Katahira H, Miura K, & Nakamura F.<br />Relationship between salmon egg subsidy and the distribution of an avian predator. <br />*Ecology and Evolution* 12(12): e9696. <u>[Link](https://doi.org/10.1002/ece3.9696)</u> |
 | 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>, Urabe H, & Nakamura F. <br />Diel migration pattern of pink salmon fry in small streams. <br />*Journal of Fish Biology* 100(4): 1088–1092. <u>[Link](https://doi.org/10.1111/jfb.15007)</u> |
