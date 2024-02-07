@@ -2,7 +2,7 @@
 title: Outputs
 ---
 
-Latest update - 10 January, 2024
+Latest update - 7 February, 2024
 <br />
 <br />
 
@@ -45,6 +45,7 @@ table, th, td {
 ## Presentations
 | | |
 | :- | :---------------- |
+| 2024/03 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. <br />カラフトマスの再生産効率に対する撹乱の影響は流域の地形によって左右されるか？ <br />日本生態学会第71回全国大会, オンライン, ポスター. |
 | 2023/03 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. <br />溯河性サケ科魚類の再生産効率と流域地形特性の関係. <br />令和5年度日本水産学会春季大会, 東京海洋大学品川キャンパス, 口頭. |
 | 2023/03 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 片平浩孝, 三浦一輝, 中村太士. <br />サケの産卵は鳥類捕食者の分布を規定するか？ <br />日本生態学会第70回全国大会, オンライン, ポスター. |
 | 2022/12 | <span style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一, 中村太士. <br />流域の地形特性は溯河性サケ科魚類の再生産効率を規定するか？ <br />第15回サケ学研究会, 水産研究・教育機構水産資源研究所, 口頭. |
