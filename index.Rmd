@@ -19,7 +19,7 @@ library(icons)
 <span style="font-weight:bold; ">Taihei Yamada</span> <br />
 <span style="font-weight:bold; ">山田 太平</span>
 
-[`r icon_style(icons::fontawesome("researchgate"), scale = 1.8, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) [`r icon_style(icons::fontawesome("orcid"), scale = 1.8, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) [`r icon_style(icons::fontawesome("instagram"), scale = 1.8, fill = '#5A5A5A')`](https://www.instagram.com/prbnmt/) 
+[`r icon_style(icons::fontawesome("researchgate"), scale = 1.8, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) [`r icon_style(icons::fontawesome("orcid"), scale = 1.8, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) [`r icon_style(icons::fontawesome("twitter"), scale = 1.8, fill = '#5A5A5A')`](https://twitter.com/thyrbn) 
 
 Assistant Professor, National Fisheries University, Japan Fisheries Research and Education Agency<br />
 国立研究開発法人水産研究・教育機構 水産大学校 生物生産学科 助教
