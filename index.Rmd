@@ -21,13 +21,8 @@ library(icons)
 
 [`r icon_style(icons::fontawesome("researchgate"), scale = 1.8, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) [`r icon_style(icons::fontawesome("orcid"), scale = 1.8, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) [`r icon_style(icons::fontawesome("instagram"), scale = 1.8, fill = '#5A5A5A')`](https://www.instagram.com/prbnmt/) 
 
-Faculty of Environmental Earth Science, Hokkaido University
-<br />
-JSPS Research Fellow PD
-
-北海道大学大学院地球環境科学研究院 小泉研究室 博士研究員
-<br />
-日本学術振興会 特別研究員 PD
+Assistant Professor, National Fisheries University, Japan Fisheries Research and Education Agency<br />
+国立研究開発法人水産研究・教育機構 水産大学校 生物生産学科 助教
 
 E-mail: thymd8 [at] gmail.com
 <br />
@@ -53,7 +48,8 @@ table, th, td {
 ## Works
 | | | |
 | :-- | :-- | :-------- |
-| 2023.10 – Present | PostDoc Position | Faculty of Environmental Earth Science, Hokkaido Univ., Japan<br />北海道大学 大学院地球環境科学研究院 |
+| 2024.04 – Present | Assistant Professor | National Fisheries University, Japan Fisheries Research and Education Agency, Japan<br />国立研究開発法人水産研究・教育機構 水産大学校 生物生産学科 |
+| 2023.10 – 2024.03 | PostDoc Position | Faculty of Environmental Earth Science, Hokkaido University, Japan<br />北海道大学 大学院地球環境科学研究院 |
 | 2018.09 – 2020.08 | Assistant Curator | Higashitaisetsu Museum, Japan<br />上士幌町 商工観光課 ひがし大雪自然館 |
 <br />
 
@@ -61,9 +57,9 @@ table, th, td {
 ## Education
 | | | |
 | :-- | :-- | :-------- |
-| 2020.04 – 2023.09 | Ph.D. | Grad. Agriculture, Hokkaido Univ., Japan<br />北海道大学 大学院農学院 |
-| 2017.04 – 2019.03 | M.Agr. | Grad. Agriculture, Hokkaido Univ., Japan<br />北海道大学 大学院農学院 |
-| 2013.04 – 2017.03 | B.F.Sc. | Sch. Marine Biosciences, Kitasato Univ., Japan<br />北里大学 海洋生命科学部 |
+| 2020.04 – 2023.09 | Ph.D. | Grad. Agriculture, Hokkaido University, Japan<br />北海道大学 大学院農学院 |
+| 2017.04 – 2019.03 | M.Agr. | Grad. Agriculture, Hokkaido University, Japan<br />北海道大学 大学院農学院 |
+| 2013.04 – 2017.03 | B.F.Sc. | Sch. Marine Biosciences, Kitasato University, Japan<br />北里大学 海洋生命科学部 |
 | 2010.04 – 2013.03 |    | Okinawa Prefectural Yaeyama HS, Japan<br />沖縄県立八重山高等学校 |
 <br />
 
