@@ -11,7 +11,7 @@ library(icons)
 
 <div style="position: relative; display: inline-block; text-align: center;">
   <img src="images/pink_salmon_crop.png" style="width: 100%; display: block; filter: brightness(50%);">
-  <h3 style="position: absolute; top: 48%; left: 50%; transform: translate(-50%, -50%);
+  <h3 style="position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);
              color: white; font-weight: bold; white-space: nowrap;">
     Taihei Yamada's Website
   </h3>
@@ -29,7 +29,7 @@ E-mail: thymd8 [at] gmail.com<br />
 [`r icon_style(icons::fontawesome("orcid"), scale = 1.8, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) 
 [`r icon_style(icons::fontawesome("twitter"), scale = 1.8, fill = '#5A5A5A')`](https://twitter.com/thyrbn) 
 <br>
-
+<br>
 
 ```{r, include = F}
 knitr::opts_chunk$set(echo = F, message = F)
@@ -111,19 +111,19 @@ table, th, td {
 ### – In Review/Preparation
 | | |
 | :- | :---------------- |
-| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Koizumi I, & Nakamura F.<br />Seasonal changes in the ratio of congeneric charrs in northern Japanese tributaries with different temperature regimes. <u>[Preprint](https://doi.org/10.21203/rs.3.rs-2465444/v1)</u> |
-| in review | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\* et al.<br />Temporal responses of the macroinvertebrate community structure to sediment replenishment downstream of a dam. |
-| in prep. | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\* et al.<br />Fragmentation status in spawning habitat of anadromous salmonids. |
+| in review | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Itsuro Koizumi, & Futoshi Nakamura.<br />Seasonal changes in the ratio of congeneric charrs in northern Japanese tributaries with different temperature regimes. <u>[Preprint](https://doi.org/10.21203/rs.3.rs-2465444/v1)</u> |
+| in review | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\* et al.<br />Temporal responses of the macroinvertebrate community structure to sediment replenishment downstream of a dam. |
+| in prep. | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\* et al.<br />Predicting riverbed particle size can uncover how salmonid spawning habitat is fragmented by artificial barriers. |
 
 ### – Published
 | | |
 | :- | :---------------- |
-| 2024 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Nobetsu T, Urabe H, & Nakamura F.<br />Invasion status of hatchery-origin pink salmon in an unstocked river at the Shiretoko World Natural Heritage Site in northern Japan.<br />*Journal of Fish Biology* 104(5): 1633–1637. <u>[Link](https://doi.org/10.1111/jfb.15690)</u> |
-| 2024 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Urabe H, & Nakamura F.<br />Pink salmon productivity is driven by catchment hydrogeomorphology and can decline under a changing climate.<br />*Freshwater Biology* 69(3): 376–386. <u>[Link](https://doi.org/10.1111/fwb.14217)</u> |
-| 2023 | Nakahashi H^\†^, <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*^\†^, Ishiyama N, & Nakamura F.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. <u>[Link](https://doi.org/10.1111/fwb.14029)</u> |
-| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Katahira H, Miura K, & Nakamura F.<br />Relationship between salmon egg subsidy and the distribution of an avian predator. <br />*Ecology and Evolution* 12(12): e9696. <u>[Link](https://doi.org/10.1002/ece3.9696)</u> |
-| 2022 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Urabe H, & Nakamura F. <br />Diel migration pattern of pink salmon fry in small streams. <br />*Journal of Fish Biology* 100(4): 1088–1092. <u>[Link](https://doi.org/10.1111/jfb.15007)</u> |
-| 2020 | <span style="font-weight:bold; color: #06283D; ">Yamada T</span>\*, Koizumi I, Urabe H, & Nakamura F. <br />Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. <br />*Zoological Science* 37(5): 429–433. <u>[Link](https://doi.org/10.2108/zs190149)<u/> |
+| 2024 | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Takahiro Nobetsu, Hirokazu Urabe, & Futoshi Nakamura.<br />Invasion status of hatchery-origin pink salmon in an unstocked river at the Shiretoko World Natural Heritage Site in northern Japan.<br />*Journal of Fish Biology* 104(5): 1633–1637. <u>[Link](https://doi.org/10.1111/jfb.15690)</u> |
+| 2024 | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Hirokazu Urabe, & Futoshi Nakamura.<br />Pink salmon productivity is driven by catchment hydrogeomorphology and can decline under a changing climate.<br />*Freshwater Biology* 69(3): 376–386. <u>[Link](https://doi.org/10.1111/fwb.14217)</u> |
+| 2023 | Honoka Nakahashi^\†^, <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*^\†^, Nobuo Ishiyama, & Futoshi Nakamura.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. <u>[Link](https://doi.org/10.1111/fwb.14029)</u> |
+| 2022 | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Hirotaka Katahira, Kazuki Miura, & Futoshi Nakamura.<br />Relationship between salmon egg subsidy and the distribution of an avian predator. <br />*Ecology and Evolution* 12(12): e9696. <u>[Link](https://doi.org/10.1002/ece3.9696)</u> |
+| 2022 | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Hirokazu Urabe, & Futoshi Nakamura. <br />Diel migration pattern of pink salmon fry in small streams. <br />*Journal of Fish Biology* 100(4): 1088–1092. <u>[Link](https://doi.org/10.1111/jfb.15007)</u> |
+| 2020 | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Itsuro Koizumi, Hirokazu Urabe, & Futoshi Nakamura. <br />Temperature-dependent swimming performance differs by species: Implications for condition-specific competition between stream salmonids. <br />*Zoological Science* 37(5): 429–433. <u>[Link](https://doi.org/10.2108/zs190149)<u/> |
 
 
 ## Domestic Papers
