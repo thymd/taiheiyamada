@@ -23,7 +23,7 @@ Latest update - 16 February, 2025 <br />
 
 # About
 
-<span style="font-size:20px; "> 山田 太平 / Taihei Yamada, Ph.D.</span><br />
+<span style="font-size:20px; "> 山田 太平 / Taihei Yamada, Ph.D. </span><br />
 E-mail: thymd8 [at] gmail.com<br />
 [`r icon_style(icons::fontawesome("researchgate"), scale = 1.8, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) 
 [`r icon_style(icons::fontawesome("orcid"), scale = 1.8, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) 
