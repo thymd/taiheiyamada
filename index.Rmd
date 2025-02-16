@@ -21,7 +21,7 @@ library(icons)
 Latest update - 16 February, 2025 <br />
 <br>
 
-# Profile
+# About
 
 <span style="font-size:20px; "> 山田 太平 / Taihei Yamada, Ph.D.</span><br />
 E-mail: thymd8 [at] gmail.com<br />

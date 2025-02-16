@@ -7,20 +7,46 @@ body{
 
 /* Headers */
 h1 {
-  color: #1A72BE;
+  color: #4792B0;
   font-family: 'Josefin Sans', sans-serif;
 }
 
 h2, h3, h4, h5, h6 {
-  color: #499FE6;
+  color: #72AEB7;
   font-family: 'Josefin Sans', sans-serif;
 }
 
+.list-group-item:focus, 
+.list-group-item:hover,
+.list-group-item.active, 
+.list-group-item.active:focus, 
+.list-group-item.active:hover {
+    color: #4792B0 !important;
+    background-color: transparent !important;
+    border-color: #4792B0 !important;
+}
+
+#TOC .nav > li > a:focus,
+#TOC .nav > li > a:hover {
+    color: #4792B0 !important;
+    background-color: transparent !important;
+    border-left: 2px solid #4792B0 !important;
+}
+
+.tocify-item.active {
+    background-color: transparent !important;
+    color: #4792B0 !important;
+}
+
+.tocify-item:focus {
+    color: #4792B0 !important;
+    background-color: transparent !important;
+}
 
 dt {
   clear: left;
   float: left;
-  width: 15%;
+  width: 10%;
   font-weight: bold;
   text-align: right;
   padding: 3px 15px 3px 0;
