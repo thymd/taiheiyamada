@@ -16,6 +16,9 @@ h2, h3, h4, h5, h6 {
   font-family: 'Josefin Sans', sans-serif;
 }
 
+
+
+
 .list-group-item:focus, 
 .list-group-item:hover,
 .list-group-item.active, 
@@ -44,6 +47,8 @@ h2, h3, h4, h5, h6 {
 }
 
 
+
+
 /* 通常のリンク */
 a {
     color: #4792B0 !important;
@@ -60,6 +65,7 @@ a:hover {
 a:visited {
     color: #4792B0 !important;
 }
+
 
 
 
