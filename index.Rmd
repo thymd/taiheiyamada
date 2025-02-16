@@ -36,7 +36,7 @@ knitr::opts_chunk$set(echo = F, message = F)
 library(knitr)
 ```
 
-::: {.float-image style="display: flex; align-items: flex-start;"}
+::: {.float-image style="display: flex; align-items: flex-start; align-items: center;"}
 ```{r out.width = '100', out.extra = 'style="float:left; padding-right:10px"', echo = FALSE}
 knitr::include_graphics("images/icon.png")
 ```
