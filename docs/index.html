@@ -29,11 +29,12 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -94,80 +95,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -222,6 +149,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -231,41 +221,17 @@ $(document).ready(function () {
 <div class="container-fluid main-container">
 
 
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Taihei Yamada's Website</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">
-    <span class="fa fa-home"></span>
-     
-    Home
-  </a>
-</li>
-<li>
-  <a href="outputs.html">
-    <span class="fa fa-book"></span>
-     
-    Outputs
-  </a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+
 
 <div id="header">
 
@@ -275,11 +241,24 @@ $(document).ready(function () {
 </div>
 
 
-<p><img src="images/pink_salmon_crop.JPG" /> <br /> <br /></p>
+<div
+style="position: relative; display: inline-block; text-align: center;">
+<img src="images/pink_salmon_crop.png" style="width: 100%; display: block; filter: brightness(50%);">
+<h3 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+             color: white; font-size: 3em; font-weight: bold; white-space: nowrap;">
+Taihei Yamada’s Website
+</h3>
+</div>
+<p><br> Latest update - 16 February, 2025 <br /> <br></p>
 <div id="profile" class="section level1">
 <h1>Profile</h1>
-<p><span style="font-weight:bold; ">Taihei Yamada</span> <br /> <span
-style="font-weight:bold; ">山田 太平</span></p>
+<div class="profile-container"
+style="display: flex; align-items: center;">
+<div>
+<p><span style="font-size:20px; "> 山田 太平 / Taihei Yamada,
+Ph.D.</span>  </p>
+</div>
+<div style="margin-left: 10px;">
 <p><a
 href="https://www.researchgate.net/profile/Taihei-Yamada-2"><svg viewBox="0 0 448 512" style="position:relative;display:inline-block;top:.1em;fill:#5A5A5A;height:1.8em;" xmlns="http://www.w3.org/2000/svg">
 <path d="M0 32v448h448V32H0zm262.2 334.4c-6.6 3-33.2 6-50-14.2-9.2-10.6-25.3-33.3-42.2-63.6-8.9 0-14.7 0-21.4-.6v46.4c0 23.5 6 21.2 25.8 23.9v8.1c-6.9-.3-23.1-.8-35.6-.8-13.1 0-26.1.6-33.6.8v-8.1c15.5-2.9 22-1.3 22-23.9V225c0-22.6-6.4-21-22-23.9V193c25.8 1 53.1-.6 70.9-.6 31.7 0 55.9 14.4 55.9 45.6 0 21.1-16.7 42.2-39.2 47.5 13.6 24.2 30 45.6 42.2 58.9 7.2 7.8 17.2 14.7 27.2 14.7v7.3zm22.9-135c-23.3 0-32.2-15.7-32.2-32.2V167c0-12.2 8.8-30.4 34-30.4s30.4 17.9 30.4 17.9l-10.7 7.2s-5.5-12.5-19.7-12.5c-7.9 0-19.7 7.3-19.7 19.7v26.8c0 13.4 6.6 23.3 17.9 23.3 14.1 0 21.5-10.9 21.5-26.8h-17.9v-10.7h30.4c0 20.5 4.7 49.9-34 49.9zm-116.5 44.7c-9.4 0-13.6-.3-20-.8v-69.7c6.4-.6 15-.6 22.5-.6 23.3 0 37.2 12.2 37.2 34.5 0 21.9-15 36.6-39.7 36.6z"></path></svg></a>
@@ -289,15 +268,21 @@ href="https://orcid.org/0000-0002-6120-7094"><svg viewBox="0 0 512 512" style="p
 <a
 href="https://twitter.com/thyrbn"><svg viewBox="0 0 512 512" style="position:relative;display:inline-block;top:.1em;fill:#5A5A5A;height:1.8em;" xmlns="http://www.w3.org/2000/svg">
 <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"></path></svg></a></p>
-<p>Assistant Professor, National Fisheries University, Japan Fisheries
-Research and Education Agency<br /> 国立研究開発法人水産研究・教育機構
-水産大学校 生物生産学科 助教</p>
-<p>E-mail: thymd8 [at] gmail.com <br /> <br /> <br /></p>
+</div>
+</div>
+<p>E-mail: thymd8 [at] gmail.com<br /> <br></p>
+<div class="float-image" style="display: flex; align-items: center;">
+<p><img src="images/icon.png" width="80" style="float:left; margin-right:20px; margin-left:10px" /></p>
+<p>Assistant Professor, Freshwater Ecology Lab.<br /> National Fisheries
+University, Japan Fisheries Research and Education Agency<br />
+国立研究開発法人水産研究・教育機構 水産大学校 生物生産学科<br />
+淡水生態学研究室 助教<br /></p>
+</div>
+<p><br></p>
 <div id="research-interests" class="section level2">
 <h2>Research Interests</h2>
 <p>生物多様性保全、生物間相互作用、水圏生態学 <br /> Biodiversity
-conservation, Biological interactions, Aquatic ecology <br /> <br />
-<br /></p>
+conservation, Biological interactions, Aquatic ecology <br /> <br /></p>
 <style>
 table, th, td {
     font-size: 100%;
@@ -334,7 +319,6 @@ University, Japan<br />北海道大学 大学院地球環境科学研究院</td>
 </tr>
 </tbody>
 </table>
-<p><br /></p>
 </div>
 <div id="education" class="section level2">
 <h2>Education</h2>
@@ -371,32 +355,38 @@ Japan<br />沖縄県立八重山高等学校</td>
 </tr>
 </tbody>
 </table>
-<p><br /></p>
 </div>
 <div id="fellowships-and-grants" class="section level2">
 <h2>Fellowships and Grants</h2>
 <table>
 <colgroup>
-<col width="20%" />
-<col width="20%" />
-<col width="60%" />
+<col width="23%" />
+<col width="76%" />
 </colgroup>
 <tbody>
 <tr class="odd">
-<td align="left">2022.04 – 2024.03</td>
-<td align="left"></td>
-<td align="left">JSPS Research Fellow
-DC2<br />日本学術振興会特別研究員DC2</td>
+<td align="left">2024.07 – 2026.03</td>
+<td align="left">JSPS KAKENHI (Grant-in-Aid for Research Activity
+Start-up)<br />日本学術振興会 科学研究費助成事業
+研究活動スタート支援</td>
+</tr>
+<tr class="even">
+<td align="left">2023.10 – 2024.03</td>
+<td align="left">JSPS Research Fellow PD<br />日本学術振興会
+特別研究員-PD</td>
+</tr>
+<tr class="odd">
+<td align="left">2022.04 – 2023.09</td>
+<td align="left">JSPS Research Fellow DC2<br />日本学術振興会
+特別研究員-DC2</td>
 </tr>
 <tr class="even">
 <td align="left">2021.10 – 2022.03</td>
-<td align="left"></td>
 <td align="left">Hokkaido University DX Doctoral
 Fellowship<br />北海道大学 DX 博士人材フェローシップ</td>
 </tr>
 </tbody>
 </table>
-<p><br /></p>
 </div>
 <div id="skills" class="section level2">
 <h2>Skills</h2>
@@ -422,21 +412,296 @@ align="left"><svg viewBox="0 0 576 512" style="position:relative;display:inline-
 <td
 align="left"><svg viewBox="0 0 576 512" style="position:relative;display:inline-block;top:.1em;fill:#5A5A5A;height:1.8em;" xmlns="http://www.w3.org/2000/svg">
 <path d="M327.1 96c-89.97 0-168.54 54.77-212.27 101.63L27.5 131.58c-12.13-9.18-30.24.6-27.14 14.66L24.54 256 .35 365.77c-3.1 14.06 15.01 23.83 27.14 14.66l87.33-66.05C158.55 361.23 237.13 416 327.1 416 464.56 416 576 288 576 256S464.56 96 327.1 96zm87.43 184c-13.25 0-24-10.75-24-24 0-13.26 10.75-24 24-24 13.26 0 24 10.74 24 24 0 13.25-10.75 24-24 24z"></path></svg></td>
-<td align="left">Fish surveys<br />魚類に関する野外調査全般</td>
+<td align="left">Fish surveys<br /></td>
 </tr>
 <tr class="even">
 <td
 align="left"><svg viewBox="0 0 512 512" style="position:relative;display:inline-block;top:.1em;fill:#5A5A5A;height:1.8em;" xmlns="http://www.w3.org/2000/svg">
 <path d="M511.988 288.9c-.478 17.43-15.217 31.1-32.653 31.1H424v16c0 21.864-4.882 42.584-13.6 61.145l60.228 60.228c12.496 12.497 12.496 32.758 0 45.255-12.498 12.497-32.759 12.496-45.256 0l-54.736-54.736C345.886 467.965 314.351 480 280 480V236c0-6.627-5.373-12-12-12h-24c-6.627 0-12 5.373-12 12v244c-34.351 0-65.886-12.035-90.636-32.108l-54.736 54.736c-12.498 12.497-32.759 12.496-45.256 0-12.496-12.497-12.496-32.758 0-45.255l60.228-60.228C92.882 378.584 88 357.864 88 336v-16H32.666C15.23 320 .491 306.33.013 288.9-.484 270.816 14.028 256 32 256h56v-58.745l-46.628-46.628c-12.496-12.497-12.496-32.758 0-45.255 12.498-12.497 32.758-12.497 45.256 0L141.255 160h229.489l54.627-54.627c12.498-12.497 32.758-12.497 45.256 0 12.496 12.497 12.496 32.758 0 45.255L424 197.255V256h56c17.972 0 32.484 14.816 31.988 32.9zM257 0c-61.856 0-112 50.144-112 112h224C369 50.144 318.856 0 257 0z"></path></svg></td>
-<td align="left">Identification of aquatic
-invertebrates<br />水生昆虫の同定</td>
+<td align="left">Identification of aquatic invertebrates</td>
 </tr>
 <tr class="odd">
 <td
 align="left"><svg viewBox="0 0 640 512" style="position:relative;display:inline-block;top:.1em;fill:#5A5A5A;height:1.8em;" xmlns="http://www.w3.org/2000/svg">
 <path d="M512.9 192c-14.9-.1-29.1 2.3-42.4 6.9L437.6 144H520c13.3 0 24-10.7 24-24V88c0-13.3-10.7-24-24-24h-45.3c-6.8 0-13.3 2.9-17.8 7.9l-37.5 41.7-22.8-38C392.2 68.4 384.4 64 376 64h-80c-8.8 0-16 7.2-16 16v16c0 8.8 7.2 16 16 16h66.4l19.2 32H227.9c-17.7-23.1-44.9-40-99.9-40H72.5C59 104 47.7 115 48 128.5c.2 13 10.9 23.5 24 23.5h56c24.5 0 38.7 10.9 47.8 24.8l-11.3 20.5c-13-3.9-26.9-5.7-41.3-5.2C55.9 194.5 1.6 249.6 0 317c-1.6 72.1 56.3 131 128 131 59.6 0 109.7-40.8 124-96h84.2c13.7 0 24.6-11.4 24-25.1-2.1-47.1 17.5-93.7 56.2-125l12.5 20.8c-27.6 23.7-45.1 58.9-44.8 98.2.5 69.6 57.2 126.5 126.8 127.1 71.6.7 129.8-57.5 129.2-129.1-.7-69.6-57.6-126.4-127.2-126.9zM128 400c-44.1 0-80-35.9-80-80s35.9-80 80-80c4.2 0 8.4.3 12.5 1L99 316.4c-8.8 16 2.8 35.6 21 35.6h81.3c-12.4 28.2-40.6 48-73.3 48zm463.9-75.6c-2.2 40.6-35 73.4-75.5 75.5-46.1 2.5-84.4-34.3-84.4-79.9 0-21.4 8.4-40.8 22.1-55.1l49.4 82.4c4.5 7.6 14.4 10 22 5.5l13.7-8.2c7.6-4.5 10-14.4 5.5-22l-48.6-80.9c5.2-1.1 10.5-1.6 15.9-1.6 45.6-.1 82.3 38.2 79.9 84.3z"></path></svg></td>
-<td align="left">Driver’s license for large
-motorcycles<br />大型自動二輪免許</td>
+<td align="left">Driver’s license for large motorcycles</td>
+</tr>
+</tbody>
+</table>
+<p><br> <br></p>
+</div>
+</div>
+<div id="outputs" class="section level1">
+<h1>Outputs</h1>
+<div id="international-papers" class="section level2">
+<h2>International Papers</h2>
+<p>*Corresponding author, <sup>†</sup>Equal contribution</p>
+<div id="in-reviewpreparation" class="section level3">
+<h3>– In Review/Preparation</h3>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="89%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">in review</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>*, Koizumi I, &amp; Nakamura F.<br />Seasonal changes in the
+ratio of congeneric charrs in northern Japanese tributaries with
+different temperature regimes. <u><a
+href="https://doi.org/10.21203/rs.3.rs-2465444/v1">Preprint</a></u></td>
+</tr>
+<tr class="even">
+<td align="left">in review</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>* et al.<br />Temporal responses of the macroinvertebrate
+community structure to sediment replenishment downstream of a dam.</td>
+</tr>
+<tr class="odd">
+<td align="left">in prep.</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>* et al.<br />Fragmentation status in spawning habitat of
+anadromous salmonids.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="published" class="section level3">
+<h3>– Published</h3>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="89%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">2024</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>*, Nobetsu T, Urabe H, &amp; Nakamura F.<br />Invasion status of
+hatchery-origin pink salmon in an unstocked river at the Shiretoko World
+Natural Heritage Site in northern Japan.<br /><em>Journal of Fish
+Biology</em> 104(5): 1633–1637. <u><a
+href="https://doi.org/10.1111/jfb.15690">Link</a></u></td>
+</tr>
+<tr class="even">
+<td align="left">2024</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>*, Urabe H, &amp; Nakamura F.<br />Pink salmon productivity is
+driven by catchment hydrogeomorphology and can decline under a changing
+climate.<br /><em>Freshwater Biology</em> 69(3): 376–386. <u><a
+href="https://doi.org/10.1111/fwb.14217">Link</a></u></td>
+</tr>
+<tr class="odd">
+<td align="left">2023</td>
+<td align="left">Nakahashi H<sup>†</sup>, <span
+style="font-weight:bold; color: #06283D; ">Yamada T</span>*<sup>†</sup>,
+Ishiyama N, &amp; Nakamura F.<br />Ecological value of gravel pit ponds
+for floodplain wetland fish.<br /><em>Freshwater Biology</em> 68(2):
+340–348. <u><a
+href="https://doi.org/10.1111/fwb.14029">Link</a></u></td>
+</tr>
+<tr class="even">
+<td align="left">2022</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>*, Katahira H, Miura K, &amp; Nakamura F.<br />Relationship
+between salmon egg subsidy and the distribution of an avian predator.
+<br /><em>Ecology and Evolution</em> 12(12): e9696. <u><a
+href="https://doi.org/10.1002/ece3.9696">Link</a></u></td>
+</tr>
+<tr class="odd">
+<td align="left">2022</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>*, Urabe H, &amp; Nakamura F. <br />Diel migration pattern of
+pink salmon fry in small streams. <br /><em>Journal of Fish Biology</em>
+100(4): 1088–1092. <u><a
+href="https://doi.org/10.1111/jfb.15007">Link</a></u></td>
+</tr>
+<tr class="even">
+<td align="left">2020</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Yamada
+T</span>*, Koizumi I, Urabe H, &amp; Nakamura F.
+<br />Temperature-dependent swimming performance differs by species:
+Implications for condition-specific competition between stream
+salmonids. <br /><em>Zoological Science</em> 37(5): 429–433. <u><a
+href="https://doi.org/10.2108/zs190149">Link</a><u/></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div id="domestic-papers" class="section level2">
+<h2>Domestic Papers</h2>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="89%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">2021</td>
+<td align="left">三浦一輝, 崎山智樹, 宇久村三世, <span
+style="font-weight:bold; color: #06283D; ">山田太平</span>.
+<br />知床半島河川において採集したコガタカワシンジュガイ.
+<br />斜里町立知床博物館研究報告 43: 1–4. (non-refereed)</td>
+</tr>
+<tr class="even">
+<td align="left">2020</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝.
+<br />北海道豊頃町および新得町におけるカワシンジュガイ属（<em>Margaritifera</em>）の採集記録.
+<br />ひがし大雪自然館研究報告 7: 41–45. (non-refereed)</td>
+</tr>
+<tr class="odd">
+<td align="left">2019</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 三浦一輝.
+<br />北海道十勝地方におけるカワシンジュガイ（<em>Margaritifera
+laevis</em>）とコガタカワシンジュガイ（<em>M.
+togakushiensis</em>）の生息情報. <br />ひがし大雪自然館研究報告 6: 9–12.
+(non-refereed)</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="presentations" class="section level2">
+<h2>Presentations</h2>
+<table>
+<colgroup>
+<col width="10%" />
+<col width="89%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">2024/12</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>.
+<br />知床半島におけるカラフトマスの再生産状況.
+<br />第45回魚類系統研究会, 北海道札幌市, 口頭.</td>
+</tr>
+<tr class="even">
+<td align="left">2024/12</td>
+<td align="left">吉野裕生, 植村洋亮, <span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 小泉逸郎.
+<br />底生無脊椎動物群集の湧水・非湧水河川比較.
+<br />第45回魚類系統研究会, 北海道札幌市, 口頭.</td>
+</tr>
+<tr class="odd">
+<td align="left">2024/03</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一,
+中村太士.
+<br />カラフトマスの再生産効率に対する撹乱の影響は流域の地形によって左右されるか？
+<br />日本生態学会第71回全国大会, 神奈川県横浜市, ポスター.</td>
+</tr>
+<tr class="even">
+<td align="left">2023/07</td>
+<td align="left">Ryota Fujimura, Junko Morimoto, <span
+style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>, Takashi
+Ono, Futoshi Nakamura. <br />Considering deer behavior at multiple
+scales for restoring broadleaved forest. <br />The 11th Annual
+International Association for Landscape Ecology (IALE) World Congress,
+Nairobi, Kenya, Oral.</td>
+</tr>
+<tr class="odd">
+<td align="left">2023/03</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一,
+中村太士. <br />溯河性サケ科魚類の再生産効率と流域地形特性の関係.
+<br />令和5年度日本水産学会春季大会, 東京都港区, 口頭.</td>
+</tr>
+<tr class="even">
+<td align="left">2023/03</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 片平浩孝,
+三浦一輝, 中村太士. <br />サケの産卵は鳥類捕食者の分布を規定するか？
+<br />日本生態学会第70回全国大会, オンライン, ポスター.</td>
+</tr>
+<tr class="odd">
+<td align="left">2022/12</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一,
+中村太士.
+<br />流域の地形特性は溯河性サケ科魚類の再生産効率を規定するか？
+<br />第15回サケ学研究会, 北海道札幌市, 口頭.</td>
+</tr>
+<tr class="even">
+<td align="left">2022/12</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一,
+中村太士.
+<br />溯河性サケ科魚類の再生産効率は流域の地形特性によって規定される.
+<br />第43回魚類系統研究会, 北海道札幌市, 口頭.</td>
+</tr>
+<tr class="odd">
+<td align="left">2022/10</td>
+<td align="left"><span style="font-weight:bold; color: #06283D; ">Taihei
+Yamada</span>, Hirokazu Urabe, Futoshi Nakamura. <br />A broad-scale
+prediction of reduction in spawning habitats for salmonids by dams.
+<br />IYS Synthesis Symposium, The Westin Bayshore, Vancouver, Canada,
+Poster.</td>
+</tr>
+<tr class="even">
+<td align="left">2022/03</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 卜部浩一,
+中村太士. <br />ダムによるサケ科魚類の産卵環境減少の広域的予測.
+<br />日本生態学会第69回全国大会, オンライン, ポスター.</td>
+</tr>
+<tr class="odd">
+<td align="left">2021/12</td>
+<td align="left">早津栄里, 岩崎巧実, 片平浩孝, <span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 宇久村三世,
+三浦一輝. <br />サケと共に暮らす:
+知床ペレケ川におけるカワガラスの卵食い. <br />第42回魚類系統研究会,
+北海道札幌市, 口頭.</td>
+</tr>
+<tr class="even">
+<td align="left">2020/03</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 小泉逸郎,
+中村太士. <br />河川性サケ科魚類の水温依存的な種間競争:
+季節変化を考慮した野外検証. <br />日本生態学会第67回全国大会,
+愛知県名古屋市, ポスター.</td>
+</tr>
+<tr class="odd">
+<td align="left">2018/03</td>
+<td align="left"><span
+style="font-weight:bold; color: #06283D; ">山田太平</span>, 小泉逸郎,
+卜部浩一, 中村太士. <br />河川性魚類の分布規定要因:
+遊泳能力と種間競争を考慮した検証. <br />日本生態学会第65回全国大会,
+北海道札幌市, ポスター.</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div id="outreaches" class="section level2">
+<h2>Outreaches</h2>
+<table>
+<colgroup>
+<col width="15%" />
+<col width="85%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">2020/07/04</td>
+<td align="left">自然観察会: 淡水魚編 (市民向け観察会, 講師).
+ひがし大雪自然館, 上士幌.</td>
+</tr>
+<tr class="even">
+<td align="left">2020/06/30<br />2020/07/02</td>
+<td align="left">上士幌学: 水生昆虫と水質調査 (高校生向け講義, 講師).
+北海道上士幌高等学校, 上士幌.</td>
+</tr>
+<tr class="odd">
+<td align="left">2019/12/15</td>
+<td align="left">魚類学: 種同定とスケッチの基礎 (市民向け講座, 講師).
+ひがし大雪自然館, 上士幌.</td>
+</tr>
+<tr class="even">
+<td align="left">2019/07/14</td>
+<td align="left">自然観察会: 淡水魚編 (市民向け観察会, 講師).
+ひがし大雪自然館, 上士幌.</td>
 </tr>
 </tbody>
 </table>
@@ -458,6 +723,8 @@ motorcycles<br />大型自動二輪免許</td>
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -490,6 +757,35 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

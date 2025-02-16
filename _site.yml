@@ -1,20 +1,13 @@
 name: "site_title"
-navbar: 
-  title: "Taihei Yamada's Website"
-  left:
-    - text: "Home"
-      href: index.html
-      icon: fa-home
-    - text: "Outputs"
-      href: outputs.html
-      icon: fa-book
-      
+
+google_analytics: "G-BQZTKPH9SP"
+
 output:
   html_document:
     theme: paper
     highlight: textmate
-    toc: false
-    toc_float: false
+    toc: true
+    toc_float: true
     toc_depth: 2 
     number_sections: false
     df_print: "kable"
