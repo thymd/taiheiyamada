@@ -11,8 +11,8 @@ library(icons)
 
 <div style="position: relative; display: inline-block; text-align: center;">
   <img src="images/pink_salmon_crop.png" style="width: 100%; display: block; filter: brightness(50%);">
-  <h3 style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-             color: white; font-size: 3em; font-weight: bold; white-space: nowrap;">
+  <h3 style="position: absolute; top: 48%; left: 50%; transform: translate(-50%, -50%);
+             color: white; font-size: 40px; font-weight: bold; white-space: nowrap;">
     Taihei Yamada's Website
   </h3>
 </div>
@@ -36,8 +36,8 @@ knitr::opts_chunk$set(echo = F, message = F)
 library(knitr)
 ```
 
-::: {.float-image style="display: flex; align-items: center;"}
-```{r out.width = '80', out.extra = 'style="float:left; padding-right:20px"', echo = FALSE}
+::: float-image
+```{r out.width = '100', out.extra = 'style="float:left; padding-right:20px"', echo = FALSE}
 knitr::include_graphics("images/icon.png")
 ```
 
