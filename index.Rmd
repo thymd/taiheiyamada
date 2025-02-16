@@ -23,18 +23,11 @@ Latest update - 16 February, 2025 <br />
 
 # Profile
 
-::: {.profile-container style="display: flex; align-items: center;"}
-<div>
-<span style="font-size:20px; "> 山田 太平 / Taihei Yamada, Ph.D.</span> &nbsp;
-</div>
-<div style="margin-left: 10px;">
+<span style="font-size:20px; "> 山田 太平 / Taihei Yamada, Ph.D.</span><br />
+E-mail: thymd8 [at] gmail.com<br />
 [`r icon_style(icons::fontawesome("researchgate"), scale = 1.8, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) 
 [`r icon_style(icons::fontawesome("orcid"), scale = 1.8, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) 
 [`r icon_style(icons::fontawesome("twitter"), scale = 1.8, fill = '#5A5A5A')`](https://twitter.com/thyrbn) 
-</div>
-:::
-
-E-mail: thymd8 [at] gmail.com<br />
 <br>
 
 
@@ -44,7 +37,7 @@ library(knitr)
 ```
 
 ::: {.float-image style="display: flex; align-items: center;"}
-```{r out.width = '80', out.extra = 'style="float:left; margin-right:20px; margin-left:10px"', echo = FALSE}
+```{r out.width = '80', out.extra = 'style="float:left; padding-right:20px"', echo = FALSE}
 knitr::include_graphics("images/icon.png")
 ```
 
