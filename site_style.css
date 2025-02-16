@@ -43,6 +43,26 @@ h2, h3, h4, h5, h6 {
     background-color: transparent !important;
 }
 
+
+/* 通常のリンク */
+a {
+    color: #4792B0 !important;
+    text-decoration: none;
+}
+
+/* ホバー時のリンク */
+a:hover {
+    color: #357089 !important;  /* 少し暗めの色 */
+    text-decoration: underline;
+}
+
+/* クリック済みのリンク */
+a:visited {
+    color: #4792B0 !important;
+}
+
+
+
 dt {
   clear: left;
   float: left;
