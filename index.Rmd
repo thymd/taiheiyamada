@@ -28,6 +28,7 @@ E-mail: thymd8 [at] gmail.com<br />
 [`r icon_style(icons::fontawesome("researchgate"), scale = 1.8, fill = '#5A5A5A')`](https://www.researchgate.net/profile/Taihei-Yamada-2) 
 [`r icon_style(icons::fontawesome("orcid"), scale = 1.8, fill = '#5A5A5A')`](https://orcid.org/0000-0002-6120-7094) 
 [`r icon_style(icons::fontawesome("twitter"), scale = 1.8, fill = '#5A5A5A')`](https://twitter.com/thyrbn) 
+[`r icon_style(icons::fontawesome("bold"), scale = 1.8, fill = '#5A5A5A')`](https://bsky.app/profile/thymd.bsky.social) 
 <br>
 <br>
 
