@@ -114,6 +114,7 @@ table, th, td {
 | :- | :---------------- |
 | in review | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Itsuro Koizumi, & Futoshi Nakamura.<br />Seasonal changes in the ratio of congeneric charrs in northern Japanese tributaries with different temperature regimes. <u>[Preprint](https://doi.org/10.21203/rs.3.rs-2465444/v1)</u> |
 | in review | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\* et al.<br />Predicting riverbed particle size can uncover how salmonid spawning habitat is fragmented by artificial barriers. |
+| in prep. | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*.<br />Size-dependent survival of juvenile chum salmon in coastal waters. |
 
 ### – Published
 | | |
