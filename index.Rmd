@@ -85,6 +85,7 @@ table, th, td {
 ## Fellowships and Grants
 | | | |
 | :--| :--------- |
+| 2025.04 – 2029.03 | JSPS KAKENHI (Grant-in-Aid for Early-Career Scientist)<br />日本学術振興会  科学研究費助成事業 若手研究 |
 | 2024.07 – 2026.03 | JSPS KAKENHI (Grant-in-Aid for Research Activity Start-up)<br />日本学術振興会  科学研究費助成事業 研究活動スタート支援 |
 | 2023.10 – 2024.03 | JSPS Research Fellow PD<br />日本学術振興会 特別研究員-PD |
 | 2022.04 – 2023.09 | JSPS Research Fellow DC2<br />日本学術振興会 特別研究員-DC2 |
