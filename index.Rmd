@@ -18,7 +18,7 @@ library(icons)
 </div>
 
 <br>
-Latest update - 27 Aug, 2025 <br />
+Latest update - 27 Apr, 2026 <br />
 <br>
 
 # About
@@ -115,13 +115,13 @@ table, th, td {
 | :- | :---------------- |
 | in review | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Itsuro Koizumi, & Futoshi Nakamura.<br />Seasonal changes in the ratio of congeneric charrs in northern Japanese tributaries with different temperature regimes. <u>[Preprint](https://doi.org/10.21203/rs.3.rs-2465444/v1)</u> |
 | in review | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\* et al.<br />Predicting riverbed particle size can uncover how salmonid spawning habitat is fragmented by artificial barriers. |
-| in review | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*.<br />Size-dependent survival of chum salmon smolts in coastal waters. |
-| in prep. | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\* et al.<br />Thermal tolerance of *Tribolodon sachalinensis*. |
 
 ### – Published
 | | |
 | :- | :---------------- |
-| in press | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Hitomi Makino, & Takashi Asahida.<br />Sediment replenishment restores macroinvertebrate community structure downstream of a dam: Lessons from a 7-year study.<br />*Restoration Ecology*. |
+| in press | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*.<br />Higher survival of smaller chum salmon smolts in coastal waters of northern Japan: evidence from tethering experiments.<br />*Ichthyological Research*. |
+| in press | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Takaya Hatano, Daisuke Togaki, Yuya Kogame, & Hirokazu Urabe.<br />Upper thermal tolerance differs between populations of a cyprinid fish, *Pseudaspius sachalinensis*.<br />*Journal of Fish Biology*. <u>[Link](https://doi.org/10.1111/jfb.70470)</u> |
+| 2025 | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Hitomi Makino, & Takashi Asahida.<br />Sediment replenishment restores macroinvertebrate community structure downstream of a dam: Lessons from a 7-year study.<br />*Restoration Ecology* 33(7): e70111. <u>[Link](https://doi.org/10.1111/rec.70111)</u> |
 | 2024 | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Takahiro Nobetsu, Hirokazu Urabe, & Futoshi Nakamura.<br />Invasion status of hatchery-origin pink salmon in an unstocked river at the Shiretoko World Natural Heritage Site in northern Japan.<br />*Journal of Fish Biology* 104(5): 1633–1637. <u>[Link](https://doi.org/10.1111/jfb.15690)</u> |
 | 2024 | <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*, Hirokazu Urabe, & Futoshi Nakamura.<br />Pink salmon productivity is driven by catchment hydrogeomorphology and can decline under a changing climate.<br />*Freshwater Biology* 69(3): 376–386. <u>[Link](https://doi.org/10.1111/fwb.14217)</u> |
 | 2023 | Honoka Nakahashi^\†^, <span style="font-weight:bold; color: #06283D; ">Taihei Yamada</span>\*^\†^, Nobuo Ishiyama, & Futoshi Nakamura.<br />Ecological value of gravel pit ponds for floodplain wetland fish.<br />*Freshwater Biology* 68(2): 340–348. <u>[Link](https://doi.org/10.1111/fwb.14029)</u> |
